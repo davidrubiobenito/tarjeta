@@ -5,12 +5,14 @@
     <title>Portafolio David Rubio</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="/css/estilos.css">
 </head>
 <body>
     <div class="contenedor">
         <section class="tarjeta">
             <section class="slider_banner">
-                <div class="banner">
+                <div class="banner" id="banner">
                     <img class="slide active" src="/img/banner.jpg" alt="">
                     <img class="slide" src="/img/banner2.jpg" alt="">
                     <img class="slide" src="/img/banner3.jpg" alt="">
@@ -18,12 +20,12 @@
                 </div>
 
                 <a href="#" id="banner-prev" class="flecha-banner anterior"><span class="fa fa-chevron-left"></span></a>
-                <a href="#" id="banner-next" class="flecha-banner suguiente"><span class="fa fa-chevron-right"></span></a>
+                <a href="#" id="banner-next" class="flecha-banner siguiente"><span class="fa fa-chevron-right"></span></a>
             </section>
 
             <section class="slider_info">
                 <a href="#" id="info-prev" class="flecha-info anterior"><span class="fa fa-chevron-left"></span></a>
-                <a href="#" id="info-next" class="flecha-info suguiente"><span class="fa fa-chevron-right"></span></a>
+                <a href="#" id="info-next" class="flecha-info siguiente"><span class="fa fa-chevron-right"></span></a>
                 <section class="informacion" class="informacion">
                     <article id="info">
                         <div class="slide active">
@@ -59,5 +61,8 @@
 
         </section>
     </div>
+
+    <script src="/js/jquery-3.0.0.min.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>
